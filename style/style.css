@@ -18,7 +18,7 @@
   color: var(--color-black);
   max-width: 1440px;
   max-height: 1832px;
-  background: var(--color-white) url('/img/bg-main-desktop.png') no-repeat;
+  background: var(--color-white) url('../img/bg-main-desktop.png') no-repeat;
   background-size: auto;
   background-position: 0px -300px;
   margin: 0 auto;
@@ -26,7 +26,7 @@
 }
 
 .header {
-  background: url("img/bg-pattern-1.svg") no-repeat;
+  background: url("../img/bg-pattern-1.svg") no-repeat;
   background-size: auto;
   background-position: right -40px;
   min-height: 468px;
@@ -60,7 +60,7 @@
   max-width: 1110px;
   height: 600px;
   border-radius: 12px;
-  background: var(--color-black) url("img/bg-pattern-2.svg") no-repeat;
+  background: var(--color-black) url("../img/bg-pattern-2.svg") no-repeat;
   background-size: auto;
   background-position: 336px -40px;
   position: relative;
@@ -131,7 +131,7 @@
   margin-bottom: 16px;
 }
 .btn--ios::before {
-  content: url("img/icon-apple.svg");
+  content: url("../img/icon-apple.svg");
   position: absolute;
   left: 80px;
   top: 15px;
@@ -146,7 +146,7 @@
   position: relative;
 }
 .btn--andr::before {
-  content: url("img/icon-android.svg");
+  content: url("../img/icon-android.svg");
   position: absolute;
   left: 60px;
   top: 15px;
